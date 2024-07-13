@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+The project involves tracking the prices of product from amazon periodically and alerting the same on given emails.
+
+## Tech Stack
+- React 
+- Next.js
+- Node.js
+- Cron-job for scheduling tracking
+- BrightData for web scraping
+- MongoDb for database management
+- Vercel for deployment
 
 ## Getting Started
 
@@ -34,3 +43,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Output
+<img width="1440" alt="Screenshot 2024-07-14 at 12 11 23 AM" src="https://github.com/user-attachments/assets/c6ccd487-1d8c-474c-b143-f82e9808b6e6">
+
+The Home page where the link can be copied and pasted to search for the product and track its price changes.
+
+<img width="1440" alt="Screenshot 2024-07-14 at 12 14 19 AM" src="https://github.com/user-attachments/assets/b2c97410-51da-4379-8cc5-41f69a13960f">
+
+The user's search history
+
+<img width="1438" alt="Screenshot 2024-07-14 at 12 16 00 AM" src="https://github.com/user-attachments/assets/a703042e-2b48-4389-aca7-4b3a3f4053c1">
+
+The product's price history with options to send updated to an email for tracking
+
+
